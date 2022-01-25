@@ -1,0 +1,159 @@
+<div class="news" id="news">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9">
+                <div class="news_container">
+                    
+                    <!-- News Post -->
+                    <div class="news_post d-flex flex-md-row flex-column align-items-start justify-content-start">
+                        <!-- <div class="news_post_image"><img src="../../assets/images/news_1.jpg" alt=""></div> -->
+                        <div class="news_post_content">
+                            <!-- <div class="news_post_date d-flex flex-row align-items-end justify-content-start">
+                                <div>02</div>
+                                <div>june</div>
+                            </div> -->
+                            <div class="news_post_title"><a href="#"><h1 style="text-align: justify;">eeNoo, From the old Scots tongue; eenoo – just now, at the present time, in a short time, at once.</h1></a></div><br>
+                            <div class="news_post_category">
+                                <!-- <ul>
+                                    <li><a href="#"></a></li>
+                                </ul> -->
+                                <h6  style="text-align: justify;">Scottish gin is at the forefront of a recent gin renaissance and so we thought eeNoo a fine and fitting name for our gin, as the present time is the heyday of gin production in Scotland.</h6>
+                            </div>
+                            <div class="news_post_text">
+                                <p style="text-align: justify;">When we crafted our gin, eeNoo, we wanted to create a flavour profile that encompassed the essence of a traditional gin whilst embracing flavours of the Scottish Highlands.
+
+                                    eeNoo is distilled with Royal Deeside honey. The flavour profile of our honey is unique to the local area and is made up of heather, willow herb and clover pollen. To complement the honey we add heather flowers and other local botanicals. We forage a percentage of our brambleberries, raspberries and rosehip from the Deeside area and source the remainder from berry farms in Aberdeenshire and Angus. As Scottish juniper is in a critical state of decline, we source the finest juniper from the Italian highlands. We then add coriander seeds, angelica root, liquorice root, orange and lemon peel to give our gin a traditional yet smooth fruity profile.
+                                    
+                                    Water from an ancient spring in the Cairngorms National Park is added to the mix. The water is some of the purest in the world and spends 50 years being gently filtered through layers of underground rocks and crevices before becoming part of our gin.</p>
+                            <br> <p style="text-align: justify;">eeNoo – always time for gin</p><br>
+                            
+                            
+                        </div>
+                        </div>
+                    </div>
+
+
+                    <!-- News Post -->
+                    
+                </div>
+                
+            </div> 
+            
+                    <!-- News Post -->
+                    
+        
+             <!-- News Sidebar -->
+             <div class="col-xl-3">
+                <div class="travello">
+                    <div class="background_image responsive" style="background-image:url(../../assets/images/eeno.jpg)">
+        
+                    
+                         
+                    </div>
+                    
+                    <div class="travello_content">
+                        
+                        
+                        <!-- <div class="travello_content_inner">
+                            <div></div>
+                            <div></div>
+                        </div> -->
+                    </div>
+                    <div class="travello_container">
+                        <a href="#">
+                            <!-- <div class="d-flex flex-column align-items-center justify-content-end"> -->
+                                <!-- <span class="travello_title">eeNoo - Scottish Gin</span> -->
+                                <!-- <span class="travello_subtitle">Buy Your Vacation Online Now</span> -->
+                            <!-- </div> -->
+                        </a>
+                        
+                    </div>
+                </div>
+                <h3 style="text-align: center;">eeNoo - Scottish Gin</h3>
+               <h6 style="text-align: center;">£35.00</h6>
+               <button class="btn btn-primary" style="width: 100%;">Add to cart</button>
+               <img src="../../assets/images/medals.jpg" id="mdl" style="width: 280px;" alt="">
+            </div>
+            <div class="col-xl-12">
+                <h3 style="text-align: justify;">Tasting Notes</h3> 
+                <h6 style="text-align: justify;">The Nose </h6>
+                <p style="text-align: justify;">Sweet summer berries, think raspberry ice cream. Very little spirit hit. It is light, refreshing and enticing.</p>
+                <h6 style="text-align: justify;">The Palate</h6>
+                <p style="text-align: justify;">Smooth and refreshing. The raspberries are evident, as is the honey. It gives a real sweet edge to the gin but is balanced perfectly with the juniper and orange peel which come through quite quickly. It is a superb sipping gin. Clean, fresh and not spirituous at all. Add some tonic and fresh strawberries for a real summer explosion.</p>
+                <hr> 
+                    
+                
+            </div>
+            <div>
+                <table>
+                    <th>Id</th> <th>BatchId</th><th>DistillerName</th><th>BottlingTime</th>
+                    <tr *ngFor='let product of products'>
+                        <td>
+                           {{product.productId}}
+                        </td>
+                        <td>
+                            {{product.batchId}}
+                         </td>
+                         <td>
+                            {{product.distillerName}}
+                         </td>
+                         <td>
+                            {{product.bottlingTime}}
+                         </td>
+
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="container cc">
+                <div class="row">
+                      <carousel>
+                          <div class="carousel-cell">
+                               <a href="#">
+                                    <img src='../../assets/images/murmi.jpg'  class="responsive" alt="Blog Image">
+                               </a>
+                          </div>
+                          <div class="carousel-cell">
+                               <a href="#">
+                                    <img src="../../assets/images/c2.jpg" class="responsive" alt="Blog Image">
+                               </a>
+                          </div>
+                          <div class="carousel-cell">
+                               <a href="#">
+                                    <img src="../../assets/images/c3.jpg"class="responsive" alt="Blog Image">
+                               </a>
+                          </div>
+                          <div class="carousel-cell">
+                               <a href="#">
+                                    <img src="../../assets/images/c4.jpg" alt="Blog Image">
+                               </a>
+                          </div>
+                          <div class="carousel-cell">
+                               <a href="#">
+                                    <img src="../../assets/images/c5.jpg" alt="Blog Image">
+                               </a>
+                          </div>
+                          <div class="carousel-cell">
+                               <a href="#">
+                                    <img src="../../assets/images/c6.jpg" alt="Blog Image">
+                               </a>
+                          </div>
+                          <div class="carousel-cell">
+                               <a href="#">
+                                    <img src="../../assets/images/c7.jpg" alt="Blog Image">
+                               </a>
+                          </div>
+                          <div class="carousel-cell">
+                               <a href="#">
+                                    <img src="../../assets/images/c8.jpg" alt="Blog Image">
+                               </a>
+                          </div>
+                          
+
+                      </carousel>
+                </div>
+           </div>   
+           
+        </div>
+    </div>
+</div>

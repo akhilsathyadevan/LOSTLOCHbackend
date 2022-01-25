@@ -1,0 +1,23 @@
+th{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    
+
+}
+table{
+    width: 100%;
+}
+td{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+
+}
+.carousel-cell{
+    height: 250px;
+    padding: 5px;
+    padding-top: 20px;
+    margin-top: 20px;
+    
+}
